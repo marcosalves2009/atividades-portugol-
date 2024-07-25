@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    // posso escrever um comentario de uma linha
+    /*
+    aqui é um comentario de mais de uma linha
+    posso adicionar diversas linhas de comentarios
+    esse conetudo não é interpretado pelo interpretador.
+    */
+
+    // declaração de variaveis
+    cadeia nome
+    inteiro idade
+    real altura 
+    //atribuição de variaveis
+    nome= "marcos"
+    idade=15 
+    altura= 1.60
+
+    //exibir mensagem na tela
+    escreva ("nome: ", nome, " idade ", idade, " altura ", altura)
+  }
+}
